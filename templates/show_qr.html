@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your QR Code</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your QR Code</h1>
+        <img src="/static/qr_codes/{{ filename }}" alt="QR Code" width="300">
+        <br><br>
+        <a href="/download_qr/{{ filename }}">
+            <button>Download QR Code</button>
+        </a>
+    </div>
+</body>
+</html>
